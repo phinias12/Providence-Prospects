@@ -19,14 +19,10 @@ hr.light {
 }
 
 a {
-  color: #3071e9;
+  color: white;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
-}
-
-a:hover {
-  color: #3071e9;
 }
 
 h1,
@@ -309,4 +305,16 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem #3071e9 !important;
+}
+
+#contact {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  padding: 3rem 0 0.5rem;
+}
+
+footer {
+  background-color: rgb(61, 61, 61);
+  color:white;
+  text-align: right;
 }
